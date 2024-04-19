@@ -1,0 +1,12 @@
+version: "1"
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+  db:
+    image: mongo:latest
+    ports:
+      - "8081:27017"
+  app:
+    image: 
